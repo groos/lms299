@@ -1,12 +1,8 @@
 
 
 def index():
-<<<<<<< Updated upstream
 
-    session.flash = "Select a theme for your LMS"
-    
-    return dict(themes = SQLFORM.grid(db.theme.name))
-=======
+    #session.flash = "Select a theme for your LMS"
     
     rows = db(db.theme.name).select()
 
@@ -29,5 +25,4 @@ def redirect():
     #redirect('http://www.google.com')
 
     return dict()
->>>>>>> Stashed changes
 
