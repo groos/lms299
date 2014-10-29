@@ -1,7 +1,24 @@
+<<<<<<< Updated upstream
+=======
+{{extend 'layout.html'}}
+
+>>>>>>> Stashed changes
 <h1>
 LMS Themes
 </h1>
 
+<<<<<<< Updated upstream
 <p>
   {{=themes}}
 </p>
+=======
+<table>
+  {{for row in rows:}}
+  <a href="{{=URL('redirect', args=row.URL)}}">{{=row.name}}</a></br>
+  {{pass}}
+</table>
+
+  
+
+
+>>>>>>> Stashed changes
