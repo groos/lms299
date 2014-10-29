@@ -4,6 +4,7 @@ def index():
 
     #session.flash = "Select a theme for your LMS"
     
+<<<<<<< HEAD
     rows = db(db.theme.name).select()
 
     return dict(rows = rows)
@@ -25,4 +26,10 @@ def redirect():
     #redirect('http://www.google.com')
 
     return dict()
+=======
+    themes = SQLFORM.grid(db.theme.name))
+    themes.selectable = True
+
+    return dict(themes = themes)
+>>>>>>> master
 
