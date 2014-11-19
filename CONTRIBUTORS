@@ -1,0 +1,84 @@
+If you know how to use GIT and make pull-requests.
+Please add your name as group project leader.
+You can suggest a topic or pick from this:
+
+- attendance verification
+- calendar (should be based on fullcalendar.js)
+- assignment upload (should use Field(...type='upload')
+- grading interface (should use ractive.js)
+- customizable layout (based on bootstrap 2.0 styles)
+- user polling system (ask, I have example)
+- class recording (screen-o-matic?)
+- class video chat (google hangout api?)
+- system wiki
+- documentation integration (every group is responsible for providing documentation of their work but one group should be responsible for assembling the docs into a manual)
+- class recording (screen-o-matic?)
+- class video chat (google hangout api?)
+- system wiki
+- documentation integration (every group is responsible for providing documentation of their work but one group should re responsible for assembling the docs into a manual)
+- testing (manual testing for now, you will have to write periodic reports to the groups about your tests)
+
+# group leaders
+
+## Jeremy Chambers - GitHub: TheHipbot
+
+Topics: Class Recording
+Members: Barbara Kubas (basiamk),
+Joanne Kus,
+John Lofgren,
+Jack Piontek
+
+## Zack Salerno - github: ZSalerno
+
+Topics:
+Members:
+
+## Jialiang Chang - github: aiolos404
+
+Topics:System Wiki
+Members:Ponpirat Chienvichai, Hang Yuan
+
+## Daniel Isler - github: disler
+
+Topics: Assignment Upload
+Members: Grimur Neyst, Alex Mccarten-Gibbs, Curtis Weir, (Daniel Isler)
+
+## Alyson Marchetti
+
+Topics:
+Members:
+
+## Nick Groos - github: groos
+
+Topics: Custom Layout using Bootstrap
+Members: James Robert Hagle, Aly Marchetti, Spencer Langley, Kyle Foster
+
+## Mike Sherry - Github: MSherry24
+
+Topics: Calendar (using fullcalendar.js)
+Members: Bryan Patzke, Saher Talaat, Cindy Choe
+
+## Justin Junk - Github: jjunk
+
+Topics : class video chat
+Members: 
+    Justin Junk  (Github: jjunk) (Group Leader)
+    Adam Barlock (Github: arbarlo)
+    Sev Jasinski (Github: SJasinski)
+    Sara Koutbia (Github: SaraKoutbia)
+
+## Michael Matusevich - Github: matus85
+
+Topics:  Grading Interface
+Members: Michael Matusevich (Group Leader)
+		 Jerry Liu - Github: BrokenMop
+		 Nicholas Condo - Github: ncondo
+		 Urvi Patel
+
+## Yan Zhao - Github: mazilian 
+
+Topics:  Class notes share and wiki
+Members: Yan Zhao (Group Leader) 
+		 Cheng Zhang - Github:  showt1me
+		 Qingkui Wang - Github: ArthurWang9
+		 Meng Di - Github: dimengmale
