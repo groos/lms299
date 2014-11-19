@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+DEBUG = True
+
 #########################################################################
 ## This scaffolding model makes your app work on Google App Engine too
 ## File is released under public domain and you can use without limitations
@@ -44,6 +46,17 @@ auth = Auth(db)
 crud, service, plugins = Crud(db), Service(), PluginManager()
 
 ## create all tables needed by auth if not custom tables
+auth.settings.extra_fields['auth_user'] = [
+    Field('address'),
+    Field('city'),
+    Field('region',label='State'),
+    Field('country'),
+    Field('phone_number'),
+    Field('student_code'),
+    Field('is_administrator','boolean',default=DEBUG,writable=DEBUG),
+    Field('is_teacher','boolean',default=DEBUG,writable=DEBUG),
+    Field('is_student','boolean',default=True),
+]
 auth.define_tables(username=False, signature=False)
 
 ## configure email
