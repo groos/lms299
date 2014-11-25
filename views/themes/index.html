@@ -7,7 +7,6 @@
 </div>
 
 
-
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
     Select Theme <span class="caret"></span>
@@ -28,23 +27,4 @@
     {{pass}}   
   </ul>
 </div>   
-  
-  <h4>Most Popular Themes: </h4>
-  {{for row in db(db.theme).select(db.theme.ALL, orderby=db.theme.use_count*-1, limitby=(0, 3)):}}
-        {{=A(row.name, _href=URL('theme_picked', args=row.URL))}}
-        <br>
-  {{pass}}
- 
-  
   <div id='theme_preview'></div>
- 
-  <h3>    
-{{=T('Image gallery')}}
-</h3>
-
-{{for image in images:}}
-  <img style="width:200px; height:200px; max-width:200px;float: right; margin: 0px 0px 15px 15px;" src="{{=URL('static','images/%s' %(image.thumbfile))}}">
-      {{pass}}
-</img>
-
-
